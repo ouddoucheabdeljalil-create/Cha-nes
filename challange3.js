@@ -1,7 +1,5 @@
 const prompt = require('prompt-sync')();
-const text1 = ["enter" ,"le","nombre"];
-const text2 = ["de","numero"];
-const text3 = [];
+const text1 = prompt("saisissez une phrase :");
+const text2 = prompt("saisissez une phrase :");
 
-text3.push(text1,text2);
-console.log(text3.join(" "));
+console.log(text1 + " " + text2);
